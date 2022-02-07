@@ -9,7 +9,7 @@ This Package Not Using API
 How To Install?
 
 ```javascript
-npm i waifu-gatcha
+npm i waifu-gatcha-gen
 ```
 
 ## Usage
