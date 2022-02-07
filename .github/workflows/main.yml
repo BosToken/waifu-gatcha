@@ -6,20 +6,29 @@ on :
       - master
       
 jobs:
-  tests:
+  build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-
-      - uses: cachix/install-nix-action@v12
+      - uses: actions/setup-node@v2
         with:
-          nix_path: nixpkgs=channel:nixos-20.09
+          node-version: 12
+      - run: npm ci
+      - run: npm test
 
-      - uses: actions/cache@v2
+  publish-gpr:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      packages: write
+      contents: read
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
         with:
-          path: |
-            output
-            .psc-package
-          key: ${{ runner.os }}-build-products
-
-      - run: nix-shell --run 'make ci'
+          node-version: 12
+          registry-url: https://npm.pkg.github.com/
+      - run: npm ci
+      - run: npm publish
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
