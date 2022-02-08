@@ -1,5 +1,5 @@
 {
-  "name": "waifu-gatcha",
+  "name": "@bostoken/waifu-gatcha",
   "version": "1.0.7",
   "description": "For Gatcha Waifu with Grade",
   "main": "index.js",
@@ -7,8 +7,5 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "nodemon": "^2.0.15"
-  }
+  "license": "ISC"
 }
