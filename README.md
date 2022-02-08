@@ -36,5 +36,3 @@ console.log(waifuGatcha);
 
 [@BosToken](https://github.com/BosToken)
 [@alfarise](https://github.com/alfarise)
-# waifu-gatcha
-# waifu-gatcha
