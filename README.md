@@ -1,4 +1,4 @@
-# waifu-gatcha
+# @bostoken/waifu-gatcha
 
 ## About
 Warning : grade rating is only based on the author's subjective
@@ -9,13 +9,13 @@ This Package Not Using API
 How To Install?
 
 ```javascript
-npm i waifu-gatcha-gen
+npm i @bostoken/waifu-gatcha
 ```
 
 ## Usage
 
 ```javascript
-const waifuGatcha = require('waifu-gatcha');
+const waifuGatcha = require('@bostoken/waifu-gatcha');
 
 //get {name, anime, picture, grade}
 console.log(waifuGatcha);
