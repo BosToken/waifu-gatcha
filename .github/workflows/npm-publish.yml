@@ -11,24 +11,24 @@ on:
       - master
 
 jobs:
-  test:
+  testing:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v2
+      - uses: actions/checkout@v1
+      - uses: actions/setup-node@v1
         with:
-          node-version: 16
+          node-version: 10
       - run: npm install --registry https://registry.npmjs.org
       - run: npm test
 
   publish-npm:
-    needs: test
+    needs: testing
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v2
+      - uses: actions/checkout@v1
+      - uses: actions/setup-node@v1
         with:
-          node-version: 16
+          node-version: 10
           registry-url: https://registry.npmjs.org/
       # - run: npm ci
       - run : rm .npmrc rm package.json mv npm.package.json package.json 
@@ -36,3 +36,17 @@ jobs:
       - run : npm install --registry https://registry.npmjs.org
         env:
           NODE_AUTH_TOKEN: ${{secrets.npm_token}}
+
+  publish-gpr:
+    needs: testing
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - uses: actions/setup-node@v1
+        with:
+          node-version: 10
+          registry-url: https://npm.pkg.github.com/
+          scope: '@your-github-username'
+      - run: npm publish
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
