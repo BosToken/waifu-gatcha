@@ -15,7 +15,7 @@ npm i waifu-gatcha-gen
 ## Usage
 
 ```javascript
-const waifuGatcha = require('waifu-gatcha');
+const waifuGatcha = require('waifu-gatcha-gen');
 
 //get {name, anime, picture, grade}
 console.log(waifuGatcha);
