@@ -19,8 +19,8 @@ npm i @bostoken/waifu-gatcha
 ```javascript
 const waifuGatcha = require('@bostoken/waifu-gatcha');
 
-//get {name, anime, picture, grade}
-console.log(waifuGatcha);
+    //get {name, anime, picture, grade}
+    console.log(waifuGatcha);
 ```
 
 ## Output
