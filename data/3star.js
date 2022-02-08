@@ -242,7 +242,17 @@ const char = [
     },
 ]
 
+var karung = {};
 
-var bintangTiga = char[Math.floor(Math.random() * char.length)];
+function randomChar(min, max) {
+    return Math.floor(Math.random() * char.length);
+}
 
-module.exports = bintangTiga;
+module.exports.bintangTiga = function (name, anime, picture, star) {
+    var index = randomChar(0, char.length);
+    karung.name = char[index].name;
+    karung.anime = char[index].anime;
+    karung.picture = char[index].picture;
+    karung.star = char[index].gatcha;
+    return karung;
+};

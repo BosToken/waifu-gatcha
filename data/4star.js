@@ -206,6 +206,21 @@ const char = [
     },
 ]
 
-var bintangEmpat = char[Math.floor(Math.random() * char.length)];
+var karung = {};
 
-module.exports = bintangEmpat;
+function randomChar(min, max) {
+    return Math.floor(Math.random() * char.length);
+}
+
+module.exports.bintangEmpat = function (name, anime, picture, star) {
+    var index = randomChar(0, char.length);
+    karung.name = char[index].name;
+    karung.anime = char[index].anime;
+    karung.picture = char[index].picture;
+    karung.star = char[index].gatcha;
+    return karung;
+};
+
+// var bintangEmpat = char[Math.floor(Math.random() * char.length)];
+
+// module.exports = bintangEmpat;
