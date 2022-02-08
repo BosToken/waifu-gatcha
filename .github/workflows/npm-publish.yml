@@ -32,7 +32,7 @@ jobs:
           registry-url: https://registry.npmjs.org/
       # - run: npm ci
       - run : npm install --registry https://registry.npmjs.org
-      - run : rm .npmrc rm package.json mv npm.package.json package.json 
+      - run : rm -i --.npmrc rm package.json mv npm.package.json package.json 
       - run : npm publish --access=public
         env:
           NODE_AUTH_TOKEN: ${{secrets.npm_token}}
