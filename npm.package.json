@@ -1,6 +1,6 @@
 {
   "name": "@bostoken/waifu-gatcha",
-  "version": "1.0.14",
+  "version": "1.0.15",
   "description": "For Gatcha Waifu with Grade",
   "main": "index.js",
   "scripts": {

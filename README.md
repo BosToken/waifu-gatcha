@@ -17,10 +17,11 @@ npm i @bostoken/waifu-gatcha
 ## Usage
 
 ```javascript
-const waifuGatcha = require('@bostoken/waifu-gatcha');
+//Example 
+const bostoken = require('@bostoken/waifu-gatcha');
 
     //get {name, anime, picture, grade}
-    console.log(waifuGatcha);
+    console.log(bostoken.waifuGatcha());
 ```
 
 ## Output
