@@ -11,5 +11,8 @@
   "license": "ISC",
   "dependencies": {
     "nodemon": "^2.0.15"
+  },
+  "publishConfig": {
+    "@BosToken:registry": "https://npm.pkg.github.com"
   }
 }
