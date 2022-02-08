@@ -8,8 +8,5 @@
     "dev": "nodemon index.js"
   },
   "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "nodemon": "^2.0.15"
-  }
+  "license": "ISC"
 }
