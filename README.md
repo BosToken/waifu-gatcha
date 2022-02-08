@@ -1,5 +1,7 @@
 # @bostoken/waifu-gatcha
 
+![](https://raw.githubusercontent.com/BosToken/waifu-gatcha/master/Banner.png)
+
 ## About
 Warning : grade rating is only based on the author's subjective
 
