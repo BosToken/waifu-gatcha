@@ -20,8 +20,9 @@ npm i @bostoken/waifu-gatcha
 //Example 
 const bostoken = require('@bostoken/waifu-gatcha');
 
-    //get {name, anime, picture, grade}
+    //get {name, anime, picture, star}
     console.log(bostoken.waifuGatcha());
+
 ```
 
 ## Output
@@ -31,7 +32,7 @@ const bostoken = require('@bostoken/waifu-gatcha');
     name : (name_character),
     anime : (anime_name),
     picture : (picture_link),
-    grade : (3-5 star),
+    star : (3-5 star),
 }*/
 ```
 

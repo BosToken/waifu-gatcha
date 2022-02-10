@@ -1,3 +1,4 @@
-// var bintangTiga = require("./index");
+var test = require("./test");
 
-// console.log(bintangTiga.waifuGatcha());
+console.log(test.waifuGatcha());
+console.log(test.waifuGatcha());

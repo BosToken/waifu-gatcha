@@ -1,34 +1,26 @@
-var tiga = require("./data/3star");
-var empat = require("./data/4star");
-var lima = require("./data/5star");
+var char5 = require("./data/5star");
+var char4 = require("./data/4star");
+var char3 = require("./data/3star");
 
-var karung = {};
-
-const array = [
-    lima.bintangLima(),
-    empat.bintangEmpat(),
-    tiga.bintangTiga(),
-    tiga.bintangTiga(),
-    lima.bintangLima(),
-    empat.bintangEmpat(),
-    tiga.bintangTiga(),
-    empat.bintangEmpat(),
-    tiga.bintangTiga(),
-    tiga.bintangTiga(),
-    empat.bintangEmpat(),
-    lima.bintangLima(),
-    tiga.bintangTiga(),
+var char = [
+    char3,
+    char3,
+    char3,
+    char4,
+    char4,
+    char4,
+    char5,
+    char5
 ];
 
-function randomStar(min, max) {
-    return Math.floor(Math.random() * array.length);
-}
+const randomInt = (min, max) => Math.floor(Math.random() * (max - min + 1) + min);
+const index = randomInt(0, char.length)
 
-module.exports.waifuGatcha = function (name, anime, picture, star) {
-    var index = randomStar(0, array.length);
-    karung.name = array[index].name;
-    karung.anime = array[index].anime;
-    karung.picture = array[index].picture;
-    karung.star = array[index].star;
-    return karung;
+module.exports.waifuGatcha = function () {
+    return {
+        name: char[index].name,
+        anime: char[index].anime,
+        picture: char[index].picture,
+        star: char[index].gatcha,
+    };
 };

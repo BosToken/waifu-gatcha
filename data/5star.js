@@ -197,29 +197,13 @@ const char = [
         anime : "Yahari Ore no Seishun Love Comedy wa Machigatteiru",
         picture : "https://cdn.myanimelist.net/images/characters/4/309084.jpg",
         gatcha : star
-    },
-    {
-        name : "Kaori Miyazono",
-        anime : "Shigatsu wa Kimi no Uso",
-        picture : "https://cdn.myanimelist.net/images/characters/14/269375.jpg",
-        gatcha : star
-    },
+    }
 ]
 
-var karung = {};
+const randomInt = (min, max) => Math.floor(Math.random() * (max - min + 1) + min);
+const ind = randomInt(0, char.length)
+const char5 = char[ind];
 
-function randomChar(min, max) {
-    return Math.floor(Math.random() * char.length);
-}
+module.exports = char5
 
-module.exports.bintangLima = function (name, anime, picture, star) {
-    var index = randomChar(0, char.length);
-    karung.name = char[index].name;
-    karung.anime = char[index].anime;
-    karung.picture = char[index].picture;
-    karung.star = char[index].gatcha;
-    return karung;
-};
-// var bintangLima = char[Math.floor(Math.random() * char.length)];
-
-// module.exports = bintangLima;
+// module.exports = char;
