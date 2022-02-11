@@ -10,5 +10,20 @@
   "license": "ISC",
   "publishConfig": {
     "@BosToken:registry": "https://npm.pkg.github.com"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BosToken/waifu-gatcha.git"
+  },
+  "keywords": [
+    "anime",
+    "gatcha",
+    "waifu",
+    "character",
+    "weebs"
+  ],
+  "bugs": {
+    "url": "https://github.com/BosToken/waifu-gatcha/issues"
+  },
+  "homepage": "https://github.com/BosToken/waifu-gatcha#readme"
 }
