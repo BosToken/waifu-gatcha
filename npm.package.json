@@ -1,11 +1,26 @@
 {
   "name": "@bostoken/waifu-gatcha",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "For Gatcha Waifu with Grade",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BosToken/waifu-gatcha.git"
+  },
+  "keywords": [
+    "anime",
+    "gatcha",
+    "waifu",
+    "character",
+    "weebs"
+  ],
+  "bugs": {
+    "url": "https://github.com/BosToken/waifu-gatcha/issues"
+  },
+  "homepage": "https://github.com/BosToken/waifu-gatcha#readme"
 }
