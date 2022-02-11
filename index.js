@@ -37,5 +37,5 @@ module.exports.waifuRefresh = function (){
         return w;
     }
     setInterval(loop, 500);
-    return loop();
+    // return loop();
 }

@@ -23,6 +23,10 @@ const bostoken = require('@bostoken/waifu-gatcha');
     //get {name, anime, picture, star}
     console.log(bostoken.waifuGatcha());
 
+    
+    //get looping {name, anime, picture, star}
+    console.log(bostoken.waifuGRefresh());
+
 ```
 
 ## Output
