@@ -204,6 +204,72 @@ module.exports = [
         picture : "https://cdn.myanimelist.net/images/characters/6/424146.jpg",
         gatcha : star
     },
+    {
+        name : "Roxy Migurdia",
+        anime : "Mushoku Tensei",
+        picture : "https://cdn.myanimelist.net/images/characters/4/423670.jpg",
+        gatcha : star
+    },
+    {
+        name : "Sylphiette",
+        anime : "Mushoku Tensei",
+        picture : "https://cdn.myanimelist.net/images/characters/10/423669.jpg",
+        gatcha : star
+    },
+    {
+        name : "Nagisa Natsunagi",
+        anime : "Tantei wa Mou, Shindeiru",
+        picture : "https://cdn.myanimelist.net/images/characters/6/446679.jpg",
+        gatcha : star
+    },
+    {
+        name : "Yui Saikawa",
+        anime : "Tantei wa Mou, Shindeiru",
+        picture : "https://cdn.myanimelist.net/images/characters/15/446681.jpg",
+        gatcha : star
+    },
+    {
+        name : "Sajuna Inui",
+        anime : "Sono Bisque Doll wa Koi wo Suru",
+        picture : "https://cdn.myanimelist.net/images/characters/6/459774.jpg",
+        gatcha : star
+    },
+    {
+        name : "Shinju Inui",
+        anime : "Sono Bisque Doll wa Koi wo Suru",
+        picture : "https://cdn.myanimelist.net/images/characters/12/458726.jpg",
+        gatcha : star
+    },
+    {
+        name : "Anju Emma",
+        anime : "Eighty Six",
+        picture : "https://cdn.myanimelist.net/images/characters/4/435464.jpg",
+        gatcha : star
+    },
+    {
+        name : "Kurena Kukumila",
+        anime : "Eighty Six",
+        picture : "https://cdn.myanimelist.net/images/characters/13/435472.jpg",
+        gatcha : star
+    },
+    {
+        name : "Ai Yashajin",
+        anime : "Ryuuou no Oshigoto!",
+        picture : "https://cdn.myanimelist.net/images/characters/6/341690.jpg",
+        gatcha : star
+    },
+    {
+        name : "Ai Hinatsuru",
+        anime : "Ryuuou no Oshigoto!",
+        picture : "https://cdn.myanimelist.net/images/characters/12/341687.jpg",
+        gatcha : star
+    },
+    {
+        name : "Charlotte Izoard",
+        anime : "Ryuuou no Oshigoto!",
+        picture : "https://cdn.myanimelist.net/images/characters/13/341694.jpg",
+        gatcha : star
+    },
 ]
 
 // const randomInt = (min, max) => Math.floor(Math.random() * (max - min + 1) + min);

@@ -240,6 +240,12 @@ module.exports = [
         picture : "https://cdn.myanimelist.net/images/characters/8/290070.jpg",
         gatcha : star
     },
+    {
+        name : "Nowa Sugaya",
+        anime : "Sono Bisque Doll wa Koi wo Suru",
+        picture : "https://cdn.myanimelist.net/images/characters/15/462877.jpg",
+        gatcha : star
+    },
 ]
 
 // const randomInt = (min, max) => Math.floor(Math.random() * (max - min + 1) + min);

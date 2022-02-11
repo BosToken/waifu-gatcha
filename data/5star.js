@@ -55,7 +55,7 @@ module.exports = [
         gatcha : star
     },
     {
-        name : "Rin Toosaka",
+        name : "Rin Tohsaka",
         anime : "Fate/stay night",
         picture : "https://cdn.myanimelist.net/images/characters/2/270529.jpg",
         gatcha : star
@@ -151,7 +151,7 @@ module.exports = [
         gatcha : star
     },
     {
-        name : "Mikoto Misaki",
+        name : "Mikoto Misaka",
         anime : "A Certain Scientific Railgun",
         picture : "https://cdn.myanimelist.net/images/characters/5/378966.jpg",
         gatcha : star
@@ -181,7 +181,7 @@ module.exports = [
         gatcha : star
     },
     {
-        name : "Arthur Pendragon",
+        name : "Artoria Pendragon",
         anime : "Fate",
         picture : "https://cdn.myanimelist.net/images/characters/6/275276.jpg",
         gatcha : star
@@ -197,7 +197,49 @@ module.exports = [
         anime : "Yahari Ore no Seishun Love Comedy wa Machigatteiru",
         picture : "https://cdn.myanimelist.net/images/characters/4/309084.jpg",
         gatcha : star
-    }
+    },
+    {
+        name : "Siesta",
+        anime : "Tantei wa Mou Shindeiru",
+        picture : "https://cdn.myanimelist.net/images/characters/9/446678.jpg",
+        gatcha : star
+    },
+    {
+        name : "Eris Boreas Greyrat",
+        anime : "Mushoku Tensei",
+        picture : "https://cdn.myanimelist.net/images/characters/14/324594.jpg",
+        gatcha : star
+    },
+    {
+        name : "Marin Kitagawa",
+        anime : "Sono Bisque Doll wa Koi wo Suru",
+        picture : "https://cdn.myanimelist.net/images/characters/14/457312.jpg",
+        gatcha : star
+    },
+    {
+        name : "Vladilena Milizé",
+        anime : "Eighty Six",
+        picture : "https://cdn.myanimelist.net/images/characters/9/453141.jpg",
+        gatcha : star
+    },
+    {
+        name : "Frederica Rosenfort",
+        anime : "Eighty Six",
+        picture : "https://cdn.myanimelist.net/images/characters/10/453080.jpg",
+        gatcha : star
+    },
+    {
+        name : "Sora Ginko",
+        anime : "Ryuuou no Oshigoto!",
+        picture : "https://cdn.myanimelist.net/images/characters/3/341689.jpg",
+        gatcha : star
+    },
+    {
+        name : "Chinatsu Kano",
+        anime : "Ao no Hako",
+        picture : "https://cdn.myanimelist.net/images/characters/16/439948.jpg",
+        gatcha : star
+    },
 ]
 
 // const randomInt = (min, max) => Math.floor(Math.random() * (max - min + 1) + min);
