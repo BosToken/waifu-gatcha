@@ -1,5 +1,5 @@
 const star = 3
-const char = [
+module.exports = [
     {
         name : "Hitch Dreyse",
         anime : " Shingeki no Kyojin",
@@ -242,11 +242,11 @@ const char = [
     },
 ]
 
-const randomInt = (min, max) => Math.floor(Math.random() * (max - min + 1) + min);
-const ind = randomInt(0, char.length)
-const char3 = char[ind];
+// const randomInt = (min, max) => Math.floor(Math.random() * (max - min + 1) + min);
+// const ind = randomInt(0, char.length)
+// const char3 = char[ind];
 
-module.exports = char3
+// module.exports = char3
 // console.log(char[ind]);
 // console.log(char[ind]);
 // module.exports.waifuGatcha = function () {

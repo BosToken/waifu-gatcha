@@ -1,5 +1,5 @@
 const star = 4
-const char = [
+module.exports = [
     {
         name : "Gabi Braun",
         anime : "Shingeki no Kyojin",
@@ -206,8 +206,8 @@ const char = [
     },
 ]
 
-const randomInt = (min, max) => Math.floor(Math.random() * (max - min + 1) + min);
-const ind = randomInt(0, char.length)
-const char4 = char[ind];
+// const randomInt = (min, max) => Math.floor(Math.random() * (max - min + 1) + min);
+// const ind = randomInt(0, char.length)
+// const char4 = char[ind];
 
-module.exports = char4
+// module.exports = char4
